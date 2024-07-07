@@ -1,3 +1,5 @@
+# Descrição
+
 Este é um repositório afeto à tarefa final da Disciplina de Modelagem com Programação Linear e Inteira do curso de Mestrado em Engenharia de Produção,
 da Universidade Federal Fluminense (UFF).
 
