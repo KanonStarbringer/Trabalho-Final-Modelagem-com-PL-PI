@@ -1,4 +1,6 @@
 streamlit
 pandas
-pyomo
 matplotlib
+plotly
+pyomo==6.2
+numpy==1.21.4
