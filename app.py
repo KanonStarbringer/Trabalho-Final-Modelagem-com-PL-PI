@@ -4,7 +4,7 @@ from pyomo.environ import *
 import matplotlib.pyplot as plt
 
 # Set page title and favicon
-st.set_page_config(page_title="Online 1-machine scheduler", page_icon=":flag-br:")
+st.set_page_config(page_title="Online 1-machine scheduler", page_icon="https://presearch.com/images?q=UFF#view")
 
 # Function to solve the scheduling problem
 def solve_scheduling_problem(data):
