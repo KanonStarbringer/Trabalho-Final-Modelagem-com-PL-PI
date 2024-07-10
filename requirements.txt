@@ -3,5 +3,6 @@ pandas
 matplotlib
 plotly
 openpyxl
+glpk
 pyomo==6.4.4 
 numpy<2.0
