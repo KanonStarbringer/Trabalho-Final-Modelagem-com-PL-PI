@@ -28,7 +28,7 @@ def solve_scheduling_problem(data):
     model.w = Param(model.J, initialize={i+1: w[i] for i in range(n)})
     model.tipo = Param(model.J, initialize={i+1: tipo[i] for i in range(n)}, within=Any)
 
-    model.y = Var(((j, t) for j in model.J for t in model.T if t >= r[j-1]), domain=Binary)
+    model.y = Var(((j, t) for j in model.J for t in model.T), domain=Binary)
 
     def objective_function(model):
         penalty = 0
