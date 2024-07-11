@@ -15,7 +15,7 @@ def solve_scheduling_problem(data):
     tipo = data.iloc[4, 1:].tolist()  # Tipo do job
     n = len(r)
 
-    tmax = max(p) + max(d) + 10  # Buffer para acomodar atrasos
+    tmax = sum(d) + 20  # Buffer para acomodar atrasos
 
     model = ConcreteModel()
 
